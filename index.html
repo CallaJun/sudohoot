@@ -1,138 +1,196 @@
-<!DOCTYPE html>
-<html lang="en">
 
+<!DOCTYPE HTML>
+<html>
 <head>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Signika:400,600,300' rel='stylesheet' type='text/css'>
+<meta charset="UTF-8">
+<!--<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">-->
 
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+<title>Sudo Hoot</title>
 
-    <title>Sudo Hoot</title>
-
-    <link href="css/bootstrap.css" rel="stylesheet">
-    <link href="css/main.css" rel="stylesheet">
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+<!-- SCS CSS -->
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<!-- Slideshow CSS -->
+<link href="css/responsiveslides.css" rel="stylesheet" type="text/css">
 
 </head>
 
-<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+<body>
+<div id="wrapper">
+      
+    <div id="left">
+        
+        <div id="logo">
+            <img src="img/logo.png" />
+        </div>
+     
+        <div id="nav">
+            <table id="navTable">
+                <tr> <td> <a href="#homeAnchor">HOME</a></td> </tr>
+                <tr> <td> <a href="#aboutAnchor">ABOUT</a></td> </tr>
+                <tr> <td> <a href="#eventsAnchor">EVENTS</a></td> </tr>
+                <tr> <td> <a href="#contactAnchor">CONTACT</a></td> </tr>
+                <tr> <td> <a href="#sponsorsAnchor">SPONSORS</a></td> </tr>
+            </table>
+        </div>
+        
+        <div id="address">
+            <em>Bryn Mawr College<br>
+            Bryn Mawr, PA 19010</em>
+        </div> 
+    </div>
+    
 
-    <!-- Navigation -->
-    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-        <div class="container">
-            <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand page-scroll" href="#page-top">
-                Sudo Hoot</a>
-            </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse navbar-ex1-collapse">
-                <ul class="nav navbar-nav">
-                    <li class="hidden">
-                        <a class="page-scroll" href="#page-top"></a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#about">About</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#gallery">Gallery</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
-                    </li>
+    <div id="right">
+    
+        <!-- Home -->
+        <div class="spacer">
+            <div class="fb-like" data-href="https://www.facebook.com/SudoHoot/" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
+        </div>
+        
+        <div class="sectionContent">
+            
+            <div id="sliderWrapper" align="center">
+                <ul class="rslides" id="slider1">
+                  <li> <img src="img/phillywit2015.png" alt="">
+                  <p class="caption">Bryn Mawr students at the Philly Women in Tech Summit 2015</p>
+                  </li>
+                  <li> <img src="img/phillywit2015.png" alt="">
+                  </li>
+                  <li> <img src="img/phillywit2015.png" alt="">
+                  </li>
+                  <li> <img src="img/phillywit2015.png" alt="">
+                  </li>
+                  <li> <img src="img/phillywit2015.png" alt="">
+                  </li>
+                  <li> <img src="img/phillywit2015.png" alt="">
+                  </li>
                 </ul>
             </div>
-            <!-- /.navbar-collapse -->
         </div>
-        <!-- /.container -->
-    </nav>
+       
+        <!-- About -->
+        <div class="spacer"><a id="aboutAnchor"></a></div>
+        <div class="sectionContent">
+            <table>
+                <tr> <td><h1>About</h1></td> 
+                <td class="line"><hr /></td></tr>
+            </table>
+            <br>
+            
+            <h2>Overview</h2>
+            <p>Sudo Hoot was founded in spring 2014 by three first-year CS majors at Bryn Mawr College. It is Bryn Mawr's all-inclusive club for hackers, coders, makers, artists, writers, entrepreneurs, and everyone in between! We want to bring awareness of opportunities in computer science and other technical fields to Mawrters, and learn about opportunities in the tech industry while preserving our identities as liberal arts students.</p>
+            <p> Questions? Comments? <a href="#contactAnchor">Contact us!</a> </p>
+            
+            <br>
+            
+            <h2>Leadership</h2>
+            <table id="boardTable">
+                <tr><!--Row 1-->
+                    <td><div class="boardPicture"><img src="img/Calla.jpg" ></div>
+                        <div>Calla Carter
+                            <div>President</div>
+                        </div></td>
+                    <td><div class="boardPicture"><img src="img/Rachel.png" ></div>
+                        <div>Rachel Xu
+                            <div>Secretary</div>
+                        </div></td>
+                    <td><div class="boardPicture"><img src="img/Mimi.jpg" ></div>
+                        <div>Mimi Benkoussa
+                            <div>Treasurer</div>
+                        </div></td>
+                </tr><!--End of Row 1-->
+                
+            </table>
+            
+            <div align="right"> <a href="#homeAnchor">Top</a> </div>           
+            
+        </div><!--End Leadership-->
+        
+        <!-- Events -->
+        <div class="spacer"><a id="eventsAnchor"></a></div>
+        <div class="sectionContent">
+        
+            <table>
+                <tr> <td><h1>Events</h1></td> 
+                <td class="line"><hr /></td></tr>
+            </table>
+        
+            <br />
+            <iframe src="https://calendar.google.com/calendar/embed?src=ulggf6umm82pcrfeaqtmsb1ph0%40group.calendar.google.com&ctz=America/New_York" style="border: 0" width="750" height="600" frameborder="0" scrolling="no"></iframe>
+            
+        </div><!--End Events-->
 
-    <!-- Intro Section -->
-    <section id="intro" class="intro-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                  <h1>Welcome</h1>
-                  <p>This is the future webpage of the Sudo Hoot, Bryn Mawr College's club for hackers, coders, makers, artists, and entrepreneurs.
-                  A more impressive website is coming soon. Bear with us.</p>
-                    <!--<img height=100 src="http://i.imgur.com/BhKLjM1.png" />-->
-                    <a class="btn btn-default page-scroll" href="#about">Learn more</a>
-                </div>
-            </div>
+        <!-- Contact -->
+        <div class="spacer"><a id="contactAnchor"></a></div>
+        <div class="sectionContent">
+            <table>
+                <tr> <td><h1>Contact</h1></td> 
+                <td class="line"><hr /></td></tr>
+            </table>
+            <br>
+            <h2>General Inquiries</h2>
+            <br>
+            <p>Email us with any questions, comments, or concerns (or just say hi!) at contact@sudohoot.com.</p>
+            <br>
+
+            <h2>Sponsorship</h2>
+            <br>
+            <p>Sudo Hoot is Bryn Mawr College's student designer and developer organization. We are committed to building a student tech culture that is open to students from all backgrounds, interests, and experience levels. To do that, we rely on resources to fund trips to local workshops and relevant events, conference registration to events like the Philly Women in Tech Summit and the Grace Hopper Celebration for Women in Computing, workshops we hold oncampus to introduce local K-12 girls to technology, and much more.</p>
+            <br>
+            <p>
+            <ul>
+                <li>For contributions of <b>$50 or more</b>, we will post your listing on Sudo Hoot's job board, and gain access to highly qualified Bryn Mawr College and Haverford College computer science students looking for internships, jobs, and other positions. We will also distribute your recruiting materials and company swag at our events.</li>
+                <li>For contributions of <b>$100 or more</b>, in addition to everything listed above, we will give you access to Sudo Hoot's resume database.</li>
+                <li>For donations of <b>$200 or more</b>, you can send a company representative to a Sudo Hoot networking event in addition to everything listed above. This lets you connect face-to-face with our members — particularly those looking for jobs — and distribute swag.</li>
+            </ul>
+            </p>
+        </div><!--End Contact-->
+
+        <!-- Sponsorship -->
+        <div class="spacer"><a id="sponsorsAnchor"></a></div>
+        <div class="sectionContent">
+            <table>
+                <tr> <td><h1>Sponsors</h1></td> 
+                <td class="line"><hr /></td></tr>
+            </table>
+            
+            <br>
+            <br>
         </div>
-    </section>
-
-    <!-- About Section -->
-    <section id="about" class="about-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h1>About Section</h1>
-                    <p>Here, we will give a brief description of the club and its goals, and post a schedule.</p>
-                    <p>
-                        <iframe src="https://www.google.com/calendar/embed?src=ulggf6umm82pcrfeaqtmsb1ph0%40group.calendar.google.co&ctz=America/New_York" style="border: 0" width="500" height="500" frameborder="0" scrolling="no"></iframe>
-                    </p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Gallery Section -->
-    <section id="gallery" class="gallery-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h1>Gallery</h1>
-                    <p>Here, we'll show off all the awesome stuff we make.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact" class="contact-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h1>Contact</h1>
-                    <p>sudohoot@gmail.com</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Footer Section -->
-    <section id="contact" class="footer-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h1>Sponsors</h1>
-                    <p><img height=80 src="images/twilio.png" />
-                    &nbsp;&nbsp;&nbsp;&nbsp;
-                    <img src="images/zivtech.png" /></p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
-
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.js"></script>
-
-    <!-- Scrolling Nav JavaScript -->
-    <script src="js/jquery.easing.min.js"></script>
-    <script src="js/cheet.js"></script>
-    <script src="js/script.js"></script>
+        
+    </div>
+</div>
 
 </body>
-
+    <!--Begin Facebook-->
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script><!--End Facebook-->
+    <script src="js/jquery-1.11.2.min.js"></script>
+    <script src="js/responsiveslides.min.js"></script>
+    <script>
+        // Slideshow 1
+        $(function () {
+            $("#slider1").responsiveSlides({
+                auto: true,
+                //pager: true,
+                speed: 800,
+                pause:true,
+                maxwidth: 700,
+                namespace: "centered-btns"
+            });
+        });
+    </script>
+    <script src="js/main.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
 </html>
