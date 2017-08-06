@@ -56,7 +56,8 @@ body {
 
 ol,
 ul {
-  list-style: none;
+  /*list-style: none;*/
+  list-style-position: inside;
 }
 
 blockquote,
@@ -424,7 +425,7 @@ h3.profile-title {
 .banner-bg {
   padding: 260px 80px;
   position: relative;
-  background: url("../img/7.jpg");
+  background: url("../img/polygonal-shape-4k.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -456,25 +457,25 @@ h3.profile-title {
   color: white;
 }
 
-/*------ about us ------ */
-.about-image {
+/*------ challenge ------ */
+.challenge-image {
   overflow: hidden;
   border: 4px solid #dddddd;
   margin-bottom: 40px;
 }
-.about-image img {
+.challenge-image img {
   width: 100%;
   display: block;
 }
 
-/*------ projects ------ */
-.projects-holder {
+/*------ prizes ------ */
+.prizes-holder {
   margin-right: 0;
   margin-left: 0;
   margin-top: 40px;
 }
-.projects-holder .col-md-4,
-.projects-holder .col-md-4 {
+.prizes-holder .col-md-4,
+.prizes-holder .col-md-4 {
   padding-right: 1px;
   padding-left: 1px;
 }
@@ -530,11 +531,11 @@ h3.profile-title {
   line-height: 20px;
 }
 
-/*------ contact ------ */
-.contact-form {
+/*------ enter ------ */
+.enter-form {
   margin-top: 40px;
 }
-.contact-form input, .contact-form textarea {
+.enter-form input, .enter-form textarea {
   width: 100%;
   outline: 0;
   border: 1px solid #aaaaaa;
@@ -542,10 +543,10 @@ h3.profile-title {
   color: #999999;
   margin-bottom: 30px;
 }
-.contact-form input:focus, .contact-form textarea:focus {
+.enter-form input:focus, .enter-form textarea:focus {
   outline: 0;
 }
-.contact-form .button {
+.enter-form .button {
   width: auto;
   background: #5f6d7e;
   color: white;
