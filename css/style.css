@@ -39,7 +39,7 @@ hr {
 /* Holds both the right and left column */
 #wrapper {
 	width:100%;
-	/*height:100%;*/
+	height:100%;
 }
 
 
@@ -188,34 +188,10 @@ hr {
 }
 
 
-/* Modals & Resources								*/
-/* Styling for the modals on Resources page		  	*/
-
-#scs_TAProgram .modal-header {
-	text-align:center;
-}
-
-#scs_TAProgram .modal-body {
-	padding:15px;
-}
-
-#scs_TAProgram .modal-body ul {
-	padding-left:15px;
-}
-
-
 /* Previous Board Members                   */
 /*   as a Modal Popup                       */
 .prevBoardList {
 	list-style-type:none;
-}
-
-
-/* Learnathon								*/
-/*     Information							*/
-#learnathon {
-	width:100%;
-	height:100%;
 }
 
 #content {
